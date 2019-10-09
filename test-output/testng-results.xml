@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8202" started-at="2019-08-29T11:00:37Z" finished-at="2019-08-29T11:00:45Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8202" started-at="2019-08-29T11:00:37Z" finished-at="2019-08-29T11:00:45Z">
+      <class name="com.HR.Test.TC01Test">
+        <test-method status="PASS" signature="precondition()[pri:0, instance:com.HR.Test.TC01Test@467aecef]" name="precondition" is-config="true" duration-ms="3767" started-at="2019-08-29T11:00:37Z" finished-at="2019-08-29T11:00:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method status="PASS" signature="hr()[pri:0, instance:com.HR.Test.TC01Test@467aecef]" name="hr" duration-ms="4413" started-at="2019-08-29T11:00:41Z" finished-at="2019-08-29T11:00:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hr -->
+        <test-method status="PASS" signature="postcondition(org.testng.ITestResult)[pri:0, instance:com.HR.Test.TC01Test@467aecef]" name="postcondition" is-config="true" duration-ms="2" started-at="2019-08-29T11:00:45Z" finished-at="2019-08-29T11:00:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=hr status=SUCCESS method=TC01Test.hr()[pri:0, instance:com.HR.Test.TC01Test@467aecef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- com.HR.Test.TC01Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
